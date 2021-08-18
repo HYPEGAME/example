@@ -1,0 +1,61 @@
+{
+	"success": true,
+	"status_code": 1,
+	"modes": [{
+			"tag": "AWP",
+			"name": "AWP",
+			"category": "COMPETITIVE",
+			"state": "NEW",
+			"online": 2,
+			"servers": [{
+					"name": "Old AWP",
+					"location": "RU",
+					"state": "POPULAR",
+					"map": "awp_lego_2",
+					"ip": "127.0.0.1",
+					"port": 27015,
+					"slots": 24,
+					"players": 1
+				},
+				{
+					"name": "New AWP",
+					"location": "EN",
+					"state": "IN_DEVELOPMENT",
+					"map": "awp_lego_2",
+					"ip": "127.0.0.1",
+					"port": 27016,
+					"slots": 16,
+					"players": 1
+				}
+			]
+		},
+		{
+			"tag": "MINI_GAMES",
+			"name": "MiniGames",
+			"category": "ENTERTAINMENT",
+			"state": "CASUAL",
+			"online": 31,
+			"servers": [{
+					"name": "Old MG",
+					"location": "US",
+					"state": "TECHNICAL_WORKS",
+					"map": "mg_old_map",
+					"ip": "127.0.0.1",
+					"port": 27123,
+					"slots": 28,
+					"players": 30
+				},
+				{
+					"name": "New MG",
+					"location": "UK",
+					"state": "NORMAL",
+					"map": "awp_lego_2",
+					"ip": "127.0.0.1",
+					"port": 27016,
+					"slots": 28,
+					"players": 1
+				}
+			]
+		}
+	]
+}
